@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --font1: "Poppins", sans-serif;
+    --cor1: #fe3e03;
+    --max-width: 1200px;
+}
+.pag7{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.pag7 .lista{
+    margin-bottom: 100px;
+
+}
+
+.pag7 h2{
+    padding-left: 20px;
+    color: var(--cor1);
+    font-weight: 800px;
+    font-size: 30px;
+}
+
+.pag7 .lista p{
+    font-weight: 600px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.pag7 .lista ul {
+    list-style: none; 
+  }
+  
+.pag7 .lista li  {
+    background-image: url("Nova pasta/icone2.png");
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    ;
+  }
+
+  .pag7 .conteudo #chamada h1{
+    
+
+    margin: 50px auto 0px auto;
+    text-align: center;
+
+    background-color: var(--cor1);
+    color: white;
+
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+
+    width: 700px;
+    padding: 10px  80px; 
+
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+
+
+.pag7  .presente ul {
+    list-style: none; 
+  }
+  
+.pag7  .presente li {
+    background-image: url("Nova pasta/presente.png");
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+  }
+
+.pag7 >.conteudo > .presente > p{
+    padding-left: 100px;
+  }
+  .pag7 .presente  h1{
+    padding-left: 100px;
+  }
+
+  .pag7  .presente ul h1{
+    color: var(--cor1);
+
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 700;
+
+    width: 700px;
+    padding-bottom: 40px;
+
+  }
+
+  .pag7  .presente ul p{
+    font-weight: 600px;
+    font-size: 25px;
+    padding-bottom: 100px;
+
+  }
+
+  .exclusivo{
+    padding-left: 100px;
+  }
+.exclusivo p{
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
+    
+}
+.exclusivo .tbl1 , .tbl3 {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+}
+.exclusivo .tbl2 , .tbl4 {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+}
+.exclusivo  .tbl4 #imagem_{
+
+    padding-left:20px;
+}
+
+

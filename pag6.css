@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+:root {
+    --font1: "Poppins", sans-serif;
+    --cor1: #fe3e03;
+    --max-width: 1200px;
+}
+.pag6 {
+    background-color: white;
+    border-radius: 0px 0px 60px 60px;
+    padding-top: 50px;
+    
+}
+
+.pag6 div{
+    margin-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.pag6 h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--cor1);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.pag6 h1 span{
+    text-decoration: underline;
+}
+.pag6 p{
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 1.6;
+}

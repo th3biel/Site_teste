@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font1: "Poppins", sans-serif;
+    --cor1: #fe3e03;
+    --max-width: 1200px;
+}
+.pag4 .container{
+    margin-top: 30px;
+    
+}
+
+.pag4 article{
+    color: black;
+    background-color: var(--cor1);
+    text-align: center;
+
+
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50px;
+    padding: 50px 50px;
+}
+
+.pag4 .intro{
+    text-align: left;
+    font-size: 20px;
+    
+    
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;; 
+}
+
+.pag4 .intro .texto h2,h3,p{
+    margin-top: 10px;
+}
+
+.pag4 .sec{
+    margin-top: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.pag4 .sec #txt_esquerda{
+    
+    text-align: left;
+
+}
+.pag4 .sec #txt_direita{
+    
+    text-align: right;
+    
+}
+.pag4 .container h2{
+    color: white;
+}
+
+.pag4 .sec p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
